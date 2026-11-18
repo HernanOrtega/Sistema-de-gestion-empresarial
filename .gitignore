@@ -1,0 +1,47 @@
+```gitignore
+# Qt Creator: configuraciones locales
+*.pro.user
+*.pro.user.*
+
+# Carpetas de compilación
+build/
+cmake-build-*/
+debug/
+release/
+
+# Archivos generados por Qt
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+.qmake.stash
+
+# Objetos y binarios compilados
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Distribuciones locales
+dist/
+
+# Reportes HTML generados con datos locales
+reports/
+
+# Configuraciones y secretos locales
+.env
+.env.*
+*.ini.local
+
+# Respaldos y volcados de bases de datos
+*.backup
+*.dump
+*.bak
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.user
